@@ -1,4 +1,4 @@
-# Smart-Send
+# Django Basic Startup setup
 
 ## Installation Instructions
 
