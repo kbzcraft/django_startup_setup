@@ -7,6 +7,13 @@
 ```
 python3 -m venv <env_name>
 ```
+  For ubuntu
+  ```
+  source <env_name>/bin/activate
+  ```
+  If you are using window what is wrong with you.
+  Find out yourself how to create and activate venv in your window and then you can watch your neighbours do... ....🙄
+  [Here is how ](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html)
 2. Download the repository:
 
 ```
