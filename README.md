@@ -37,8 +37,9 @@ pip install -r req.txt
     Copy the generated secret key and add it to the .env file.
     And you or good to go
     #OR
-5 .Alternatively, you can replace the contents of the setting.py file with the following code:
+5 .Alternatively, you can add the following codeine setting.py or completly replace the entire setting.py file :
   ```
+  # add this at top
   import os
   from dotenv import load_dotenv
 
@@ -47,10 +48,13 @@ pip install -r req.txt
 
   # Set secret key from environment variable
   SECRET_KEY = os.getenv('SECRET_KEY')
-
+  
+  #add this at
   # STATIC_URL = '/static/'
   STATICFILES_DIRS =(os.path.join(BASE_DIR, 'static'),)
-
+  
+  MEDIA_URL = '/media/'
+  MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
   ```
 5.Update the urls.py file:
 
