@@ -1,4 +1,5 @@
 # Django Basic Startup setup
+### Here i have added roots for static and media so  you don't have to do every time you start new project you can just simply clone this repo or copy the necessary code.
 
 ## Installation Instructions
 
